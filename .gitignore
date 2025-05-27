@@ -1,0 +1,50 @@
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual (muy importante)
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de configuración del entorno
+*.env
+*.env.*
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de base de datos locales (si no usas una en producción)
+db.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos de migración (opcional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Archivos de configuración de editores (opcional)
+.vscode/
+.idea/
+
+# Archivos estáticos recolectados (opcional si los generas con collectstatic)
+staticfiles/
+static/
+
+# Archivos de medios cargados localmente
+media/
+
+# Archivos de test coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Archivos de build
+build/
+dist/
+*.egg-info/
