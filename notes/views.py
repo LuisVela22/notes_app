@@ -4,5 +4,8 @@ from .models import Note
 
 # Create your views here.
 class NoteListView(viewsets.ModelViewSet):
-    queryset = Note.objects.all()
+     """
+    ViewSet for listing, creating, updating, and deleting Note objects.
+    """
     serializer_class = NoteSerializer
+    queryset = Note.objects.all() # type: ignore[attr-defined]
